@@ -1,0 +1,14 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "A simple command-line shopping cart system with unit tests",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
